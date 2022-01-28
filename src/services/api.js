@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getUserLocalStorage } from '../context/AuthProvider/utils';
 
 export const Api = axios.create({
-    baseURL: 'https://navedex-api.herokuapp.com/v1/'
+    baseURL: 'https://reqres.in/api/'
 })
 
 Api.interceptors.request.use(
